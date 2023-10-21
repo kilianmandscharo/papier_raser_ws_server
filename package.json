@@ -1,0 +1,24 @@
+{
+  "name": "paper_racer_ws_server",
+  "version": "1.0.0",
+  "description": "websocket server for paper racer project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "paper_racer_ws_server"
+  },
+  "author": "Dominik Heller",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^4.6.10",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "typescript": "^5.2.2"
+  }
+}
